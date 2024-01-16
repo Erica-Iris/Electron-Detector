@@ -7,7 +7,7 @@ for app in /Applications/*.app; do
             item_name=$(basename "$item")
             # echo $item_name
             if [[ "$item_name" == *"Electron"* ]]; then
-                echo "Electron-based app found: $app"
+                echo "$app"
                 break
             fi
         done

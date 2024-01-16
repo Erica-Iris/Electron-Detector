@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030624DC2B56E80C0036A6D4 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030624DB2B56E80C0036A6D4 /* IconView.swift */; };
+		033298912B56E6D600ABCD24 /* Electron_DetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033298902B56E6D600ABCD24 /* Electron_DetectorApp.swift */; };
+		033298932B56E6D600ABCD24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033298922B56E6D600ABCD24 /* ContentView.swift */; };
+		033298952B56E6D700ABCD24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033298942B56E6D700ABCD24 /* Assets.xcassets */; };
+		033298982B56E6D700ABCD24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033298972B56E6D700ABCD24 /* Preview Assets.xcassets */; };
+		033298A32B56E6D700ABCD24 /* Electron_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033298A22B56E6D700ABCD24 /* Electron_DetectorTests.swift */; };
+		033298AD2B56E6D700ABCD24 /* Electron_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033298AC2B56E6D700ABCD24 /* Electron_DetectorUITests.swift */; };
+		033298AF2B56E6D700ABCD24 /* Electron_DetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033298AE2B56E6D700ABCD24 /* Electron_DetectorUITestsLaunchTests.swift */; };
+		033298BC2B56E71400ABCD24 /* main.sh in Resources */ = {isa = PBXBuildFile; fileRef = 033298BB2B56E71400ABCD24 /* main.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0332989F2B56E6D700ABCD24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033298852B56E6D600ABCD24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0332988C2B56E6D600ABCD24;
+			remoteInfo = "Electron Detector";
+		};
+		033298A92B56E6D700ABCD24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033298852B56E6D600ABCD24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0332988C2B56E6D600ABCD24;
+			remoteInfo = "Electron Detector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030624DB2B56E80C0036A6D4 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		0332988D2B56E6D600ABCD24 /* Electron Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Electron Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		033298902B56E6D600ABCD24 /* Electron_DetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electron_DetectorApp.swift; sourceTree = "<group>"; };
+		033298922B56E6D600ABCD24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		033298942B56E6D700ABCD24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		033298972B56E6D700ABCD24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		033298992B56E6D700ABCD24 /* Electron_Detector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Electron_Detector.entitlements; sourceTree = "<group>"; };
+		0332989E2B56E6D700ABCD24 /* Electron DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Electron DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		033298A22B56E6D700ABCD24 /* Electron_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electron_DetectorTests.swift; sourceTree = "<group>"; };
+		033298A82B56E6D700ABCD24 /* Electron DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Electron DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		033298AC2B56E6D700ABCD24 /* Electron_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electron_DetectorUITests.swift; sourceTree = "<group>"; };
+		033298AE2B56E6D700ABCD24 /* Electron_DetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electron_DetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		033298BB2B56E71400ABCD24 /* main.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = main.sh; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0332988A2B56E6D600ABCD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0332989B2B56E6D700ABCD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033298A52B56E6D700ABCD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033298842B56E6D600ABCD24 = {
+			isa = PBXGroup;
+			children = (
+				0332988F2B56E6D600ABCD24 /* Electron Detector */,
+				033298A12B56E6D700ABCD24 /* Electron DetectorTests */,
+				033298AB2B56E6D700ABCD24 /* Electron DetectorUITests */,
+				0332988E2B56E6D600ABCD24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0332988E2B56E6D600ABCD24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0332988D2B56E6D600ABCD24 /* Electron Detector.app */,
+				0332989E2B56E6D700ABCD24 /* Electron DetectorTests.xctest */,
+				033298A82B56E6D700ABCD24 /* Electron DetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0332988F2B56E6D600ABCD24 /* Electron Detector */ = {
+			isa = PBXGroup;
+			children = (
+				033298BB2B56E71400ABCD24 /* main.sh */,
+				033298902B56E6D600ABCD24 /* Electron_DetectorApp.swift */,
+				033298922B56E6D600ABCD24 /* ContentView.swift */,
+				030624DB2B56E80C0036A6D4 /* IconView.swift */,
+				033298942B56E6D700ABCD24 /* Assets.xcassets */,
+				033298992B56E6D700ABCD24 /* Electron_Detector.entitlements */,
+				033298962B56E6D700ABCD24 /* Preview Content */,
+			);
+			path = "Electron Detector";
+			sourceTree = "<group>";
+		};
+		033298962B56E6D700ABCD24 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				033298972B56E6D700ABCD24 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		033298A12B56E6D700ABCD24 /* Electron DetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				033298A22B56E6D700ABCD24 /* Electron_DetectorTests.swift */,
+			);
+			path = "Electron DetectorTests";
+			sourceTree = "<group>";
+		};
+		033298AB2B56E6D700ABCD24 /* Electron DetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				033298AC2B56E6D700ABCD24 /* Electron_DetectorUITests.swift */,
+				033298AE2B56E6D700ABCD24 /* Electron_DetectorUITestsLaunchTests.swift */,
+			);
+			path = "Electron DetectorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0332988C2B56E6D600ABCD24 /* Electron Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033298B22B56E6D700ABCD24 /* Build configuration list for PBXNativeTarget "Electron Detector" */;
+			buildPhases = (
+				033298892B56E6D600ABCD24 /* Sources */,
+				0332988A2B56E6D600ABCD24 /* Frameworks */,
+				0332988B2B56E6D600ABCD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Electron Detector";
+			productName = "Electron Detector";
+			productReference = 0332988D2B56E6D600ABCD24 /* Electron Detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0332989D2B56E6D700ABCD24 /* Electron DetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033298B52B56E6D700ABCD24 /* Build configuration list for PBXNativeTarget "Electron DetectorTests" */;
+			buildPhases = (
+				0332989A2B56E6D700ABCD24 /* Sources */,
+				0332989B2B56E6D700ABCD24 /* Frameworks */,
+				0332989C2B56E6D700ABCD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033298A02B56E6D700ABCD24 /* PBXTargetDependency */,
+			);
+			name = "Electron DetectorTests";
+			productName = "Electron DetectorTests";
+			productReference = 0332989E2B56E6D700ABCD24 /* Electron DetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		033298A72B56E6D700ABCD24 /* Electron DetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033298B82B56E6D700ABCD24 /* Build configuration list for PBXNativeTarget "Electron DetectorUITests" */;
+			buildPhases = (
+				033298A42B56E6D700ABCD24 /* Sources */,
+				033298A52B56E6D700ABCD24 /* Frameworks */,
+				033298A62B56E6D700ABCD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033298AA2B56E6D700ABCD24 /* PBXTargetDependency */,
+			);
+			name = "Electron DetectorUITests";
+			productName = "Electron DetectorUITests";
+			productReference = 033298A82B56E6D700ABCD24 /* Electron DetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		033298852B56E6D600ABCD24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0332988C2B56E6D600ABCD24 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0332989D2B56E6D700ABCD24 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0332988C2B56E6D600ABCD24;
+					};
+					033298A72B56E6D700ABCD24 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0332988C2B56E6D600ABCD24;
+					};
+				};
+			};
+			buildConfigurationList = 033298882B56E6D600ABCD24 /* Build configuration list for PBXProject "Electron Detector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 033298842B56E6D600ABCD24;
+			productRefGroup = 0332988E2B56E6D600ABCD24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0332988C2B56E6D600ABCD24 /* Electron Detector */,
+				0332989D2B56E6D700ABCD24 /* Electron DetectorTests */,
+				033298A72B56E6D700ABCD24 /* Electron DetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0332988B2B56E6D600ABCD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033298BC2B56E71400ABCD24 /* main.sh in Resources */,
+				033298982B56E6D700ABCD24 /* Preview Assets.xcassets in Resources */,
+				033298952B56E6D700ABCD24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0332989C2B56E6D700ABCD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033298A62B56E6D700ABCD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		033298892B56E6D600ABCD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033298932B56E6D600ABCD24 /* ContentView.swift in Sources */,
+				030624DC2B56E80C0036A6D4 /* IconView.swift in Sources */,
+				033298912B56E6D600ABCD24 /* Electron_DetectorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0332989A2B56E6D700ABCD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033298A32B56E6D700ABCD24 /* Electron_DetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033298A42B56E6D700ABCD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033298AF2B56E6D700ABCD24 /* Electron_DetectorUITestsLaunchTests.swift in Sources */,
+				033298AD2B56E6D700ABCD24 /* Electron_DetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		033298A02B56E6D700ABCD24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0332988C2B56E6D600ABCD24 /* Electron Detector */;
+			targetProxy = 0332989F2B56E6D700ABCD24 /* PBXContainerItemProxy */;
+		};
+		033298AA2B56E6D700ABCD24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0332988C2B56E6D600ABCD24 /* Electron Detector */;
+			targetProxy = 033298A92B56E6D700ABCD24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		033298B02B56E6D700ABCD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		033298B12B56E6D700ABCD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		033298B32B56E6D700ABCD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Electron Detector/Electron_Detector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Electron Detector/Preview Content\"";
+				DEVELOPMENT_TEAM = FUX8BPCLMV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iris.Electron-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		033298B42B56E6D700ABCD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Electron Detector/Electron_Detector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Electron Detector/Preview Content\"";
+				DEVELOPMENT_TEAM = FUX8BPCLMV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iris.Electron-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		033298B62B56E6D700ABCD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUX8BPCLMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iris.Electron-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Electron Detector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Electron Detector";
+			};
+			name = Debug;
+		};
+		033298B72B56E6D700ABCD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUX8BPCLMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iris.Electron-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Electron Detector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Electron Detector";
+			};
+			name = Release;
+		};
+		033298B92B56E6D700ABCD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUX8BPCLMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iris.Electron-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Electron Detector";
+			};
+			name = Debug;
+		};
+		033298BA2B56E6D700ABCD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUX8BPCLMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iris.Electron-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Electron Detector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033298882B56E6D600ABCD24 /* Build configuration list for PBXProject "Electron Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033298B02B56E6D700ABCD24 /* Debug */,
+				033298B12B56E6D700ABCD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033298B22B56E6D700ABCD24 /* Build configuration list for PBXNativeTarget "Electron Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033298B32B56E6D700ABCD24 /* Debug */,
+				033298B42B56E6D700ABCD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033298B52B56E6D700ABCD24 /* Build configuration list for PBXNativeTarget "Electron DetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033298B62B56E6D700ABCD24 /* Debug */,
+				033298B72B56E6D700ABCD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033298B82B56E6D700ABCD24 /* Build configuration list for PBXNativeTarget "Electron DetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033298B92B56E6D700ABCD24 /* Debug */,
+				033298BA2B56E6D700ABCD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 033298852B56E6D600ABCD24 /* Project object */;
+}
