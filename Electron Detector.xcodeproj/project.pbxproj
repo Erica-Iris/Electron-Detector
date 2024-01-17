@@ -10,6 +10,7 @@
 		030624DC2B56E80C0036A6D4 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030624DB2B56E80C0036A6D4 /* IconView.swift */; };
 		030624DE2B5709F20036A6D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 030624DD2B5709F20036A6D4 /* README.md */; };
 		030624E02B579AF80036A6D4 /* fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030624DF2B579AF80036A6D4 /* fetcher.swift */; };
+		030624E52B57FAC20036A6D4 /* 2024-01-17_20-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 030624E42B57FAC20036A6D4 /* 2024-01-17_20-07.png */; };
 		033298912B56E6D600ABCD24 /* Electron_DetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033298902B56E6D600ABCD24 /* Electron_DetectorApp.swift */; };
 		033298932B56E6D600ABCD24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033298922B56E6D600ABCD24 /* ContentView.swift */; };
 		033298952B56E6D700ABCD24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033298942B56E6D700ABCD24 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		030624DB2B56E80C0036A6D4 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
 		030624DD2B5709F20036A6D4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		030624DF2B579AF80036A6D4 /* fetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetcher.swift; sourceTree = "<group>"; };
+		030624E42B57FAC20036A6D4 /* 2024-01-17_20-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2024-01-17_20-07.png"; sourceTree = SOURCE_ROOT; };
 		0332988D2B56E6D600ABCD24 /* Electron Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Electron Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		033298902B56E6D600ABCD24 /* Electron_DetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electron_DetectorApp.swift; sourceTree = "<group>"; };
 		033298922B56E6D600ABCD24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030624E32B57FA8C0036A6D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				030624E42B57FAC20036A6D4 /* 2024-01-17_20-07.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		033298842B56E6D600ABCD24 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		0332988F2B56E6D600ABCD24 /* Electron Detector */ = {
 			isa = PBXGroup;
 			children = (
+				030624E32B57FA8C0036A6D4 /* Resources */,
 				033298BB2B56E71400ABCD24 /* main.sh */,
 				033298902B56E6D600ABCD24 /* Electron_DetectorApp.swift */,
 				033298922B56E6D600ABCD24 /* ContentView.swift */,
@@ -249,6 +260,7 @@
 				033298982B56E6D700ABCD24 /* Preview Assets.xcassets in Resources */,
 				030624DE2B5709F20036A6D4 /* README.md in Resources */,
 				033298952B56E6D700ABCD24 /* Assets.xcassets in Resources */,
+				030624E52B57FAC20036A6D4 /* 2024-01-17_20-07.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
